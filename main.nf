@@ -1,5 +1,10 @@
+println "I want to BLAST $params.query to $params.dbDir/$params.dbName using $params.threads CPUs and output it to $params.outdir"
 
-  blastdb="myBlastDatabase"
-  params.query="file.fasta"
+process runBlast {
 
-  println "I will BLAST $params.query against $blastdb"
+  script:
+  """
+  blastn  -num_threads 2 -db $PWD/DB/blastDB -query $PWD/input.fasta -outfmt 6 -out input.blastout
+  """
+
+}

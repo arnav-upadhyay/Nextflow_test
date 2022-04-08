@@ -3,3 +3,6 @@
 2022-04-08 14:21:03	-	friendly_snyder	-	8c2cc82381a1ecc995ddd098aacb3842	a686a99f-151a-4cb3-a7d5-8aeec909ca89	nextflow run main.nf
 2022-04-08 14:21:16	417ms	astonishing_koch	OK	69056e9e8b26aed7957d52afdc1a35a8	e38ed863-cb77-465e-98c5-f1012f86b115	nextflow run main.nf
 2022-04-08 14:29:47	987ms	infallible_kowalevski	OK	69056e9e8b26aed7957d52afdc1a35a8	147387ec-cd4d-48d5-895e-006f39dbb14f	nextflow run main.nf --blastdb NewBlastDB
+2022-04-08 14:47:01	1s	angry_plateau	OK	48886a3c0a790090a4b2590525726790	fb3d261d-25c0-4305-b018-8e3a385b4fa1	nextflow run main.nf
+2022-04-08 14:49:35	525ms	small_meucci	OK	48886a3c0a790090a4b2590525726790	57460464-4a92-4ffc-9b2c-24f5fc36c377	nextflow run main.nf
+2022-04-08 15:13:22	1.4s	voluminous_kalman	OK	69d0b6e46c36f85cf0f910dea52b222a	b957653c-9c50-47e7-9382-57ef1fdffa28	nextflow run main.nf
